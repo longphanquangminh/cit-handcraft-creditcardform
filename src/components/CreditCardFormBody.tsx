@@ -16,6 +16,7 @@ export default function CreditCardFormBody() {
       <button className='bg-[#288FB4] hover:bg-[#82CCDD] duration-300 text-white font-bold py-2 px-3 rounded w-full capitalize mt-3'>
         Confirm payment
       </button>
+      <p className='text-center text-black'>You verify that this info is correct</p>
     </form>
   );
 }
