@@ -15,7 +15,9 @@ export default function CreditCardFormInput(props: Props) {
         <input
           disabled={props.disabled}
           readOnly={props.readOnly}
-          className={`border-2 border-gray-300 px-3 py-1 rounded-lg shadow-2xl w-full ${props.disabled ? "bg-gray-300" : "bg-white"}`}
+          className={`border-2 border-gray-300 focus:border-gray-700 outline-none px-3 py-1 rounded-lg shadow-2xl w-full ${
+            props.disabled ? "bg-gray-300" : "bg-white"
+          }`}
           type={props.type || "text"}
           placeholder={props.placeholder}
         />
